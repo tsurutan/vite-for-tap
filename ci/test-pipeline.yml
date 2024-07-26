@@ -22,7 +22,7 @@ spec:
           - name: source-revision
         steps:
           - name: test
-            image: eclipse-temurin:17
+            image: node:20-alpine
             script: |-
               set -ex
               cd `mktemp -d`
