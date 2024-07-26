@@ -22,7 +22,7 @@ spec:
           - name: source-revision
         steps:
           - name: test
-            image: node:20-alpine
+            image: node:20
             script: |-
               set -ex
               cd `mktemp -d`
