@@ -4,6 +4,6 @@ services:
   vite-app:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: _Dockerfile
     ports:
         - "5173:5173"

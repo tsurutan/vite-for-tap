@@ -30,6 +30,9 @@ spec:
       - image: harbor-13-78-118-111.sslip.io/tmaki/node-web-app:latest
         imagePullPolicy: Always
         name: node-web-app
+        env:
+          - name: NODE_ENV
+            value: "production"
         ports:
         - containerPort: 5173
         readinessProbe:
